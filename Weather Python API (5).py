@@ -78,8 +78,8 @@ Weather_now_df.head()
 
 # In[5]:
 
-
-api_key = "08b2b3933f6b578b05842b04d5e18bfb"
+#you will need to use your own API key from open weather for this to run
+api_key = "api_keys"
 
 
 url = "http://api.openweathermap.org/data/2.5/weather?units=Imperial&APPID=" + api_key
